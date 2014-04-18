@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "description": "coffee-script example",
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.0.2",
+    "browserify": "^3.43.0",
+    "coffee-script": "^1.7.1",
+    "connect": "latest",
+    "errorhandler": "^1.0.0",
+    "gulp": "latest",
+    "gulp-browserify": "^0.5.0",
+    "gulp-coffee": "latest",
+    "gulp-concat": "latest",
+    "gulp-livereload": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "method-override": "^1.0.0",
+    "module": "0.0.1",
+    "require": "^0.5.0",
+    "tiny-lr": "latest"
+  }
+}
