@@ -2,9 +2,9 @@ class Calculator
 	constructor: ->
 		# @add = (a, b) ->
 		# 	return (parseFloat a) + (parseFloat b)
-		@add = (values...) ->#(a, b, values...) ->
-			#total = (parseFloat a) + (parseFloat b)
-			total = 0
+		@add = (a, b, values...) ->
+			total = (parseFloat a) + (parseFloat b)
+			# total = 0
 			console.log values 
 			for num in values
 				total += parseFloat num

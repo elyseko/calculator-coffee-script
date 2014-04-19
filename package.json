@@ -17,8 +17,6 @@
     "gulp-uglify": "latest",
     "gulp-util": "latest",
     "method-override": "^1.0.0",
-    "module": "0.0.1",
-    "require": "^0.5.0",
     "tiny-lr": "latest"
   }
 }

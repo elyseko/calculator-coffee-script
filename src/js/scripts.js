@@ -5,9 +5,9 @@
   Calculator = (function() {
     function Calculator() {
       this.add = function() {
-        var num, total, values, _i, _len;
-        values = 1 <= arguments.length ? __slice.call(arguments, 0) : [];
-        total = 0;
+        var a, b, num, total, values, _i, _len;
+        a = arguments[0], b = arguments[1], values = 3 <= arguments.length ? __slice.call(arguments, 2) : [];
+        total = (parseFloat(a)) + (parseFloat(b));
         console.log(values);
         for (_i = 0, _len = values.length; _i < _len; _i++) {
           num = values[_i];
